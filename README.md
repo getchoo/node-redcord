@@ -11,8 +11,12 @@ This command, when sent into a sever with `redcord` present, triggers the bot to
 This command uses the same function as `-random` on the backend, with it being repeated 10 times, sending 10 pieces of media to the server at once from the subreddit given.
 
 ## Installation:
+After installing NodeJS and it's packagaer manager `npm`, run this to install redcord:
 
-### **UNDER CONSTRUCTION**
+`npm install -g redcord`
+
+You can now run it directly from the terminal with the `redcord` command.
+
 
 ## How to Use
 
