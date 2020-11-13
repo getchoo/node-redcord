@@ -1,6 +1,6 @@
 # node-redcord
 
-This is a rewrite of [redcord](https://github.com/sethfl/redcord) in NodeJS - it's mainly for my own amusement and learning. However, with that said, it could be the primary of redcord in the future as I believe the [`eris`](https://github.com/abalabahaha/eris) library is much more efficient to use from a development standpoint, but also in speed.
+This is a rewrite of [redcord](https://github.com/sethfl/redcord) in NodeJS - it's mainly for my own amusement and learning. However, with that said, it could be the primary version of redcord in the future as I believe the [`eris`](https://github.com/abalabahaha/eris) library is much more efficient to use from a development standpoint, but also in speed.
 
 ## Commands:
 
