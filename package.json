@@ -1,5 +1,5 @@
 {
-  "name": "redcord",
+  "name": "@sethfl/redcord",
   "version": "1.0.0",
   "description": "redcord rewritten in nodejs",
   "main": "bot.js",
@@ -23,5 +23,13 @@
   },
   "devDependencies": {
     "standard": "^16.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethfl/node-redcord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sethfl/node-redcord/issues"
+  },
+  "homepage": "https://github.com/sethfl/node-redcord#readme"
 }
