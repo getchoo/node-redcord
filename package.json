@@ -1,10 +1,14 @@
 {
   "name": "redcord",
-  "version": "1.0.0",
+  "version": "1.0.2-0",
   "description": "redcord rewritten in nodejs",
-  "main": "bot.js",
+  "main": "./bin/bot.js",
+  "preferGlobal": true,
+  "bin": {
+    "redcord": "bin/bot.js"
+  },
   "scripts": {
-    "start": "node ./bot.js",
+    "start": "node ./bin/bot.js",
     "fix": "npx standard --fix"
   },
   "keywords": [
