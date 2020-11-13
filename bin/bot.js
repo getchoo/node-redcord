@@ -1,4 +1,7 @@
-const redcord = require('./features/commands')
+#!/usr/bin/env node
+
+
+const redcord = require('../lib/redcord')
 const chalk = require('chalk')
 const Eris = require('eris')
 
