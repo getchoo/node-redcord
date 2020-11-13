@@ -4,6 +4,7 @@
   "description": "redcord rewritten in nodejs",
   "main": "bot.js",
   "scripts": {
+    "start": "node ./bot.js",
     "fix": "npx standard --fix"
   },
   "keywords": [
