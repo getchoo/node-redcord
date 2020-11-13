@@ -3,6 +3,8 @@
   "version": "1.0.1-0",
   "description": "redcord rewritten in nodejs",
   "main": "bot.js",
+  "preferGlobal": true,
+  "bin": { "redcord": "./bot.js" },
   "scripts": {
     "start": "node ./bot.js",
     "fix": "npx standard --fix"
