@@ -1,5 +1,5 @@
 {
-  "name": "@sethfl/redcord",
+  "name": "redcord",
   "version": "1.0.0",
   "description": "redcord rewritten in nodejs",
   "main": "bot.js",
