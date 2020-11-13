@@ -1,0 +1,26 @@
+{
+  "name": "redcord",
+  "version": "1.0.0",
+  "description": "redcord rewritten in nodejs",
+  "main": "bot.js",
+  "scripts": {
+    "fix": "npx standard --fix"
+  },
+  "keywords": [
+    "api",
+    "discord",
+    "discordapp",
+    "eris",
+    "wrapper"
+  ],
+  "author": "sethfl",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "eris": "^0.14.0",
+    "reddit-fetch": "^1.5.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.2"
+  }
+}
