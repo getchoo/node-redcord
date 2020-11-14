@@ -2,15 +2,6 @@
   "name": "redcord",
   "version": "1.0.3",
   "description": "redcord rewritten in nodejs",
-  "main": "./bin/bot.js",
-  "preferGlobal": true,
-  "bin": {
-    "redcord": "bin/bot.js"
-  },
-  "scripts": {
-    "start": "node ./bin/bot.js",
-    "fix": "npx standard --fix"
-  },
   "keywords": [
     "api",
     "discord",
@@ -18,8 +9,29 @@
     "eris",
     "wrapper"
   ],
-  "author": "sethfl",
+  "homepage": "https://github.com/sethfl/node-redcord#readme",
+  "bugs": {
+    "url": "https://github.com/sethfl/node-redcord/issues"
+  },
   "license": "MIT",
+  "author": "sethfl",
+  "main": "./bin/bot.js",
+  "preferGlobal": true,
+  "bin": {
+    "redcord": "bin/bot.js"
+  },
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethfl/node-redcord.git"
+  },
+  "scripts": {
+    "start": "node ./bin/bot.js",
+    "fix": "npx standard --fix"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "eris": "^0.14.0",
@@ -28,12 +40,5 @@
   "devDependencies": {
     "standard": "^16.0.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sethfl/node-redcord.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sethfl/node-redcord/issues"
-  },
-  "homepage": "https://github.com/sethfl/node-redcord#readme"
+  "preferGlobal": true
 }
