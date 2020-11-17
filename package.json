@@ -1,6 +1,6 @@
 {
   "name": "redcord",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "redcord rewritten in nodejs",
   "keywords": [
     "api",
@@ -39,6 +39,5 @@
   },
   "devDependencies": {
     "standard": "^16.0.2"
-  },
-  "preferGlobal": true
+  }
 }
