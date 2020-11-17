@@ -9,12 +9,12 @@
     "eris",
     "wrapper"
   ],
-  "homepage": "https://github.com/sethfl/node-redcord#readme",
+  "homepage": "https://github.com/getchoo/node-redcord#readme",
   "bugs": {
-    "url": "https://github.com/sethfl/node-redcord/issues"
+    "url": "https://github.com/getchoo/node-redcord/issues"
   },
   "license": "MIT",
-  "author": "sethfl",
+  "author": "getchoo",
   "main": "./bin/bot.js",
   "preferGlobal": true,
   "bin": {
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sethfl/node-redcord.git"
+    "url": "git+https://github.com/getchoo/node-redcord.git"
   },
   "scripts": {
     "start": "node ./bin/bot.js",

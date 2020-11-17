@@ -1,8 +1,8 @@
 # node-redcord
 
-[![CodeFactor](https://www.codefactor.io/repository/github/sethfl/node-redcord/badge/main)](https://www.codefactor.io/repository/github/sethfl/node-redcord/overview/main)
+[![CodeFactor](https://www.codefactor.io/repository/github/getchoo/node-redcord/badge)](https://www.codefactor.io/repository/github/getchoo/node-redcord)
 
-This is a rewrite of [redcord](https://github.com/sethfl/redcord) in NodeJS - it's mainly for my own amusement and learning. However, with that said, it could be the primary version of redcord in the future as I believe the [`eris`](https://github.com/abalabahaha/eris) library is much more efficient to use from a development standpoint, but also in speed.
+This is a rewrite of [redcord](https://github.com/getchoo/redcord) in NodeJS - it's mainly for my own amusement and learning. However, with that said, it could be the primary version of redcord in the future as I believe the [`eris`](https://github.com/abalabahaha/eris) library is much more efficient to use from a development standpoint, but also in speed.
 
 ## Commands:
 
@@ -35,9 +35,9 @@ The only problems I have really come across with this is setting the environment
 ### Getting the Source Code
 You can clone the repository using the following command:
 
-`git clone https://github.com/sethfl/node-redcord.git`
+`git clone https://github.com/getchoo/node-redcord.git`
 
-or, you can just download a tarball/zip from the [releases](https://github.com/sethfl/node-redcord/releases) page. 
+or, you can just download a tarball/zip from the [releases](https://github.com/getchoo/node-redcord/releases) page. 
 
 ### Setup
 In order to run the current codebase - as well as any modifications you make - you first need to run this command to install dependencies:
