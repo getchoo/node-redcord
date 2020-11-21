@@ -23,7 +23,7 @@ const bot = new Eris(token)
 let i = 0
 
 bot.on('ready', async () => {
-  console.log(chalk.bold.cyan('connected to discord!'))
+  console.log(ok('connected to discord!'))
 })
 
 bot.on('messageCreate', async (msg) => {
@@ -55,3 +55,5 @@ bot.on('messageCreate', async (msg) => {
 })
 
 bot.connect()
+  .then()
+  .catch(console.log(bad('failed to connect to discord! did you check your discord token?')));
