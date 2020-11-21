@@ -4,17 +4,23 @@ const redcord = require('../lib/redcord')
 const chalk = require('chalk')
 const Eris = require('eris')
 
+// setup text colors for different statuses
+
 const ok = chalk.bold.cyan
 
 const bad = chalk.bold.red
 
 const link = chalk.underline.green
 
+// get discord bot token from environmental variable
+
 const token = process.env.DISCORD_TOKEN
 
 if (token == null) {
   console.log(bad('no discord token found as an environmental variable. please set it as DISCORD_TOKEN.'))
 }
+
+// this is the prefix used for commands. you can replace it with any non-alphanumeric character.
 
 const prefix = '-'
 
@@ -27,6 +33,7 @@ bot.on('ready', async () => {
 })
 
 bot.on('messageCreate', async (msg) => {
+  // random command
   if (msg.content.startsWith(prefix + 'random')) {
     const subreddit = msg.content.replace(prefix + 'random ', '')
     const received = 'got a random api request for /r/' + subreddit
@@ -39,6 +46,7 @@ bot.on('messageCreate', async (msg) => {
       })
   }
 
+  // spam command
   if (msg.content.startsWith(prefix + 'spam')) {
     const subreddit = msg.content.replace(prefix + 'spam ', '')
     const received = 'got a spam api request for /r/' + subreddit
@@ -56,4 +64,4 @@ bot.on('messageCreate', async (msg) => {
 
 bot.connect()
   .then()
-  .catch(console.log(bad('failed to connect to discord! did you check your discord token?')));
+  .catch(console.log(bad('failed to connect to discord! did you check your discord token?')))
