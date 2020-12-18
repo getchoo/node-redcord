@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "node ./bin/bot.js",
-    "fix": "npx standard --fix"
+    "fix": "npx eslint --fix"
   },
   "dependencies": {
     "chalk": "^4.1.0",
